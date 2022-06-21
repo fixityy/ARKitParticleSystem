@@ -13,6 +13,11 @@
 		306DFCD92860F02000C96219 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306DFCD72860F02000C96219 /* Main.storyboard */; };
 		306DFCDB2860F02200C96219 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306DFCDA2860F02200C96219 /* Assets.xcassets */; };
 		306DFCDE2860F02200C96219 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306DFCDC2860F02200C96219 /* LaunchScreen.storyboard */; };
+		3080893E2860F37400D31B54 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3080893D2860F37400D31B54 /* Plane.swift */; };
+		308089412860F39400D31B54 /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308089402860F39400D31B54 /* VirtualObject.swift */; };
+		308089512860F6D700D31B54 /* Smoke.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 3080894F2860F6D700D31B54 /* Smoke.scnp */; };
+		308089522860F6D700D31B54 /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 308089502860F6D700D31B54 /* smoke.png */; };
+		30BCF5992860F1B400DD9065 /* BitMaskCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BCF5982860F1B400DD9065 /* BitMaskCategory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +28,11 @@
 		306DFCD82860F02000C96219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		306DFCDA2860F02200C96219 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		306DFCDD2860F02200C96219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3080893D2860F37400D31B54 /* Plane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Plane.swift; path = ../../ARKitPlanes/ARKitPlanes/Plane.swift; sourceTree = "<group>"; };
+		308089402860F39400D31B54 /* VirtualObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualObject.swift; sourceTree = "<group>"; };
+		3080894F2860F6D700D31B54 /* Smoke.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Smoke.scnp; sourceTree = "<group>"; };
+		308089502860F6D700D31B54 /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
+		30BCF5982860F1B400DD9065 /* BitMaskCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitMaskCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +66,13 @@
 			isa = PBXGroup;
 			children = (
 				306DFCD12860F02000C96219 /* AppDelegate.swift */,
+				308089502860F6D700D31B54 /* smoke.png */,
+				3080894F2860F6D700D31B54 /* Smoke.scnp */,
 				306DFCD32860F02000C96219 /* art.scnassets */,
 				306DFCD52860F02000C96219 /* ViewController.swift */,
+				3080893D2860F37400D31B54 /* Plane.swift */,
+				308089402860F39400D31B54 /* VirtualObject.swift */,
+				30BCF5982860F1B400DD9065 /* BitMaskCategory.swift */,
 				306DFCD72860F02000C96219 /* Main.storyboard */,
 				306DFCDA2860F02200C96219 /* Assets.xcassets */,
 				306DFCDC2860F02200C96219 /* LaunchScreen.storyboard */,
@@ -124,6 +139,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				306DFCD42860F02000C96219 /* art.scnassets in Resources */,
+				308089522860F6D700D31B54 /* smoke.png in Resources */,
+				308089512860F6D700D31B54 /* Smoke.scnp in Resources */,
 				306DFCDE2860F02200C96219 /* LaunchScreen.storyboard in Resources */,
 				306DFCDB2860F02200C96219 /* Assets.xcassets in Resources */,
 				306DFCD92860F02000C96219 /* Main.storyboard in Resources */,
@@ -137,7 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				308089412860F39400D31B54 /* VirtualObject.swift in Sources */,
 				306DFCD62860F02000C96219 /* ViewController.swift in Sources */,
+				30BCF5992860F1B400DD9065 /* BitMaskCategory.swift in Sources */,
+				3080893E2860F37400D31B54 /* Plane.swift in Sources */,
 				306DFCD22860F02000C96219 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
